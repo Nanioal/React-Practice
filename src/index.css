@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: brown;
+    border-radius: 5px;
+    color: white;
+    
+}
+
+.header > img {
+    margin-left: 500px;
+}
+
+header > h1{
+    
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Inter;
+  }
+
+.logo{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    padding-top: 5px;
+  }
+
+article.entry-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    background-color: #F5F5F5;
+    border-radius: 5px; 
+}
+
+.location-icon{
+  height: 12px;
+  width: 12px;
+}
+.Img{
+  height: 168px;
+  width: 125px;
+  object-fit: cover;
+}
+article.entry-container .Img-container{
+  height: 168px;
+  width: 125px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+  
+}
+.country{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Inter;
+    color: #333333;
+}
+.description{
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family: Inter;
+    color: #333333;
+}
+title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Inter;
+    color: #333333;
+}
+.Japan-Date{
+    font-size: 0/9rem;
+    font-weight: bold;
+    font-family: Inter;
+    color: #333333;
+}
